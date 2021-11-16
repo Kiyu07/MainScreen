@@ -19,6 +19,7 @@ namespace MainScreen
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Close();
             Form2 a = new Form2();
             a.ShowDialog();
         }
