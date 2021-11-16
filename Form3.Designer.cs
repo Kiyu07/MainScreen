@@ -165,6 +165,7 @@ namespace MainScreen
             this.button1.TabIndex = 12;
             this.button1.Text = "Attack";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -174,6 +175,7 @@ namespace MainScreen
             this.button2.TabIndex = 13;
             this.button2.Text = "Rest";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -183,6 +185,7 @@ namespace MainScreen
             this.button3.TabIndex = 14;
             this.button3.Text = "Energize";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -192,6 +195,7 @@ namespace MainScreen
             this.button4.TabIndex = 15;
             this.button4.Text = "Special";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form3
             // 
@@ -216,6 +220,7 @@ namespace MainScreen
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

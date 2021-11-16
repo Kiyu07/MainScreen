@@ -17,6 +17,10 @@ namespace MainScreen
             InitializeComponent();
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 b = new Form3();
+            b.ShowDialog();
+        }
     }
 }
