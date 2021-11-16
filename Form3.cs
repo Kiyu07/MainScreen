@@ -16,8 +16,8 @@ namespace MainScreen
         {
             InitializeComponent();
         }
-        private Ninja You = new Ninja(300, 30, 40);
-        private Ninja Enemy = new Ninja(400, 50, 30);
+        private Ninja You = new Ninja(300, 40, 50);
+        private Ninja Enemy = new Ninja(400, 35, 30);
         private void UpdateStats()
         {
             textBox1.Text = You.Lifepoints.ToString();

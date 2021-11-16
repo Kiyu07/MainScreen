@@ -21,7 +21,6 @@ namespace MainScreen
         {
             Form2 a = new Form2();
             a.ShowDialog();
-            this.Hide();
         }
     }
 }
