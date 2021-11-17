@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="78-781295_finish-button-pixel-art-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\78-781295_finish-button-pixel-art-clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="52618741" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\52618741.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mainscreenform" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mainscreenform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="52618742" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\52618742.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5261874" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5261874.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="78-781295_finish-button-pixel-art-clipart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\78-781295_finish-button-pixel-art-clipart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="buttons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buttons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Buttonsscreen (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Buttonsscreen (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="78-781295_finish-button-pixel-art-clipart2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\78-781295_finish-button-pixel-art-clipart2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

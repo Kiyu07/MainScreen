@@ -31,6 +31,7 @@ namespace MainScreen
         {
             UpdateStats();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             You.Slash(ref Enemy);
@@ -60,42 +61,6 @@ namespace MainScreen
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            You.Heal(ref You);
-            MessageBox.Show("You take a break");
-            UpdateStats();
-            Enemy.Slash(ref You);
-            MessageBox.Show("Enemy doesn't wait");
-            You.EnergyRestore(ref You);
-            UpdateStats();
-            int c;
-            c = int.Parse(textBox1.Text);
-            if (c <= 0)
-            {
-                MessageBox.Show("Lol, you died");
-                System.Windows.Forms.Application.Exit();
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            You.PowerUp(ref You);
-            MessageBox.Show("Hamehamehaaaa");
-            UpdateStats();
-            Enemy.Slash(ref You);
-            MessageBox.Show("Enemy attacks");
-            You.EnergyRestore(ref You);
-            UpdateStats();
-            int b;
-            b = int.Parse(textBox1.Text);
-            if (b <= 0)
-            {
-                MessageBox.Show("Lol, you died");
-                System.Windows.Forms.Application.Exit();
-            }
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             You.Backslash(ref Enemy);
@@ -118,6 +83,44 @@ namespace MainScreen
             int a;
             a = int.Parse(textBox1.Text);
             if (a <= 0)
+            {
+                MessageBox.Show("Lol, you died");
+                System.Windows.Forms.Application.Exit();
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            You.Heal(ref You);
+            MessageBox.Show("You take a break");
+            UpdateStats();
+            Enemy.Slash(ref You);
+            MessageBox.Show("Enemy doesn't wait");
+            You.EnergyRestore(ref You);
+            UpdateStats();
+            int c;
+            c = int.Parse(textBox1.Text);
+            if (c <= 0)
+            {
+                MessageBox.Show("Lol, you died");
+                System.Windows.Forms.Application.Exit();
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            You.PowerUp(ref You);
+            MessageBox.Show("Hamehamehaaaa");
+            UpdateStats();
+            Enemy.Slash(ref You);
+            MessageBox.Show("Enemy attacks");
+            You.EnergyRestore(ref You);
+            UpdateStats();
+            int b;
+            b = int.Parse(textBox1.Text);
+            if (b <= 0)
             {
                 MessageBox.Show("Lol, you died");
                 System.Windows.Forms.Application.Exit();

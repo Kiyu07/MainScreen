@@ -17,11 +17,14 @@ namespace MainScreen
             InitializeComponent();
         }
 
+        private int counter;
         private void button1_Click(object sender, EventArgs e)
         {
             Form3 b = new Form3();
             b.ShowDialog();
             button1.Visible = false;
+            counter += 1;
+            count.Text = counter.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -40,7 +43,9 @@ namespace MainScreen
         {
             Form4 c = new Form4();
             c.ShowDialog();
-            button2.Visible = false;
+            button4.Visible = false;
+            counter += 1;
+            count.Text = counter.ToString();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -48,11 +53,51 @@ namespace MainScreen
             Form5 d = new Form5();
             d.ShowDialog();
             button8.Visible = false;
+            counter += 1;
+            count.Text = counter.ToString();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+            Form6 f = new Form6();
+            f.ShowDialog();
+            button6.Visible = false;
+            counter += 1;
+            count.Text = counter.ToString();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Maze1 g = new Maze1();
+            g.ShowDialog();
+            button2.Visible = false;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Maze2 h = new Maze2();
+            h.ShowDialog();
+            button7.Visible = false;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Maze3 i = new Maze3();
+            i.ShowDialog();
+            button9.Visible = false;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if(counter == 4)
+            {
+                MessageBox.Show("Welp, in the end there is no hidden treasure in the cave. What matters is the fun you had. HAHAHA");
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("I feel like Im missing something");
+            }
         }
     }
 }

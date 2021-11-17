@@ -63,6 +63,66 @@ namespace MainScreen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5261874 {
+            get {
+                object obj = ResourceManager.GetObject("5261874", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _52618741 {
+            get {
+                object obj = ResourceManager.GetObject("52618741", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _52618742 {
+            get {
+                object obj = ResourceManager.GetObject("52618742", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _78_781295_finish_button_pixel_art_clipart {
+            get {
+                object obj = ResourceManager.GetObject("78-781295_finish-button-pixel-art-clipart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _78_781295_finish_button_pixel_art_clipart1 {
+            get {
+                object obj = ResourceManager.GetObject("78-781295_finish-button-pixel-art-clipart1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _78_781295_finish_button_pixel_art_clipart2 {
+            get {
+                object obj = ResourceManager.GetObject("78-781295_finish-button-pixel-art-clipart2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buttons {
             get {
                 object obj = ResourceManager.GetObject("buttons", resourceCulture);

@@ -82,6 +82,30 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mass2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mass2.Designer.cs">
+      <DependentUpon>Mass2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maze1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maze1.Designer.cs">
+      <DependentUpon>Maze1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maze2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maze2.Designer.cs">
+      <DependentUpon>Maze2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maze3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maze3.Designer.cs">
+      <DependentUpon>Maze3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ninja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,6 +126,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maze1.resx">
+      <DependentUpon>Maze1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maze2.resx">
+      <DependentUpon>Maze2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maze3.resx">
+      <DependentUpon>Maze3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -134,6 +167,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Buttonsscreen %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5261874.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78-781295_finish-button-pixel-art-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52618741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78-781295_finish-button-pixel-art-clipart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52618742.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78-781295_finish-button-pixel-art-clipart2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

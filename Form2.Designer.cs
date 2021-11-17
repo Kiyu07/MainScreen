@@ -30,13 +30,9 @@ namespace MainScreen
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.count = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,14 +50,6 @@ namespace MainScreen
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(91, 258);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(279, 22);
-            this.textBox1.TabIndex = 10;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -70,18 +58,6 @@ namespace MainScreen
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(433, 153);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 32);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Character Stats";
             // 
             // label3
             // 
@@ -95,30 +71,14 @@ namespace MainScreen
             this.label3.TabIndex = 13;
             this.label3.Text = "Battles Won";
             // 
-            // textBox2
+            // count
             // 
-            this.textBox2.Location = new System.Drawing.Point(379, 258);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(279, 22);
-            this.textBox2.TabIndex = 14;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(377, 679);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(279, 22);
-            this.textBox3.TabIndex = 15;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(665, 258);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(279, 22);
-            this.textBox4.TabIndex = 17;
+            this.count.Location = new System.Drawing.Point(377, 679);
+            this.count.Margin = new System.Windows.Forms.Padding(4);
+            this.count.Name = "count";
+            this.count.ReadOnly = true;
+            this.count.Size = new System.Drawing.Size(279, 22);
+            this.count.TabIndex = 15;
             // 
             // label4
             // 
@@ -128,9 +88,8 @@ namespace MainScreen
             this.label4.Location = new System.Drawing.Point(197, 208);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 32);
+            this.label4.Size = new System.Drawing.Size(0, 32);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Life";
             // 
             // label5
             // 
@@ -140,9 +99,8 @@ namespace MainScreen
             this.label5.Location = new System.Drawing.Point(480, 208);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 32);
+            this.label5.Size = new System.Drawing.Size(0, 32);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Attack";
             // 
             // label6
             // 
@@ -152,9 +110,8 @@ namespace MainScreen
             this.label6.Location = new System.Drawing.Point(765, 208);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 32);
+            this.label6.Size = new System.Drawing.Size(0, 32);
             this.label6.TabIndex = 20;
-            this.label6.Text = "Energy";
             // 
             // button10
             // 
@@ -167,6 +124,7 @@ namespace MainScreen
             this.button10.TabIndex = 16;
             this.button10.Text = "FINISH";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -179,6 +137,7 @@ namespace MainScreen
             this.button9.TabIndex = 9;
             this.button9.Text = "Click me!";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -204,6 +163,7 @@ namespace MainScreen
             this.button7.TabIndex = 7;
             this.button7.Text = "Click me!";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -268,6 +228,7 @@ namespace MainScreen
             this.button2.TabIndex = 2;
             this.button2.Text = "Click me!";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -301,14 +262,10 @@ namespace MainScreen
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.count);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -340,14 +297,10 @@ namespace MainScreen
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox count;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
