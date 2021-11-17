@@ -186,5 +186,17 @@
   <ItemGroup>
     <None Include="Resources\78-781295_finish-button-pixel-art-clipart2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chibi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chibi2 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chibi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalchibi1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
