@@ -198,5 +198,8 @@
   <ItemGroup>
     <None Include="Resources\finalchibi1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inazuma_City.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

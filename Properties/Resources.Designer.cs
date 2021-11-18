@@ -203,6 +203,16 @@ namespace MainScreen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Inazuma_City {
+            get {
+                object obj = ResourceManager.GetObject("Inazuma_City", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mainscreenform {
             get {
                 object obj = ResourceManager.GetObject("Mainscreenform", resourceCulture);
