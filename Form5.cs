@@ -138,5 +138,10 @@ namespace MainScreen
         {
 
         }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Special Attack Kamui | Cost: 70");
+        }
     }
 }

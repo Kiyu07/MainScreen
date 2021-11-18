@@ -63,7 +63,7 @@ namespace MainScreen
 
         private void button4_Click(object sender, EventArgs e)
         {
-            You.Backslash(ref Enemy);
+            You.Izanagi(ref Enemy);
             MessageBox.Show("'Iku zo!!' You activate your special!");
             UpdateStats();
             int x;
@@ -125,6 +125,11 @@ namespace MainScreen
                 MessageBox.Show("Lol, you died");
                 System.Windows.Forms.Application.Exit();
             }
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Special Attack Izanagi | Cost: 60 Energy");
         }
     }
 }

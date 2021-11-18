@@ -99,5 +99,15 @@ namespace MainScreen
                 MessageBox.Show("I feel like Im missing something");
             }
         }
+
+        private void Form2_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Rest: Heals 20 LP and Increase Energy by 20. | Energize: Increase Attack and Energy by 10 | Beware of some buttons! You need to win 4 battles to finish the game");
+        }
     }
 }

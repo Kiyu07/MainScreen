@@ -128,5 +128,10 @@ namespace MainScreen
                 System.Windows.Forms.Application.Exit();
             }
         }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Special Attack Amaterasu | Cost: 80 Energy |");
+        }
     }
 }

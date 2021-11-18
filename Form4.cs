@@ -134,5 +134,10 @@ namespace MainScreen
         {
 
         }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Special Attack Yamimahou | Cost: 50 Energy");
+        }
     }
 }

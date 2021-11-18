@@ -22,7 +22,7 @@ namespace MainScreen
         }
 
         //Special
-        public void Backslash(ref Ninja target)
+        public void Izanagi(ref Ninja target)
         {
             if (this.Energy >= 60)
             {
