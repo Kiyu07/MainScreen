@@ -16,8 +16,9 @@ namespace MainScreen
         {
             InitializeComponent();
         }
-        private Ninja You = new Ninja(300, 40, 50);
-        private Ninja Enemy = new Ninja(400, 35, 30);
+        //Boss
+        private Ninja You = new Ninja(300, 40, 60); //Life, Attack, Energy
+        private Ninja Enemy = new Ninja(450, 50, 30);
         private void UpdateStats()
         {
             textBox1.Text = You.Lifepoints.ToString();
@@ -32,22 +33,23 @@ namespace MainScreen
             UpdateStats();
         }
 
+        //Attack button
         private void button1_Click(object sender, EventArgs e)
         {
             You.Slash(ref Enemy);
-            MessageBox.Show("You Attack!");
+            MessageBox.Show("'Kogeki!' You Attack!");
             UpdateStats();
             int y;
             y = int.Parse(textBox4.Text);
             if (y <= 0)
             {
-                MessageBox.Show("Defeat");
+                MessageBox.Show("'Kuso kurae!!' Enemy defeated");
                 this.Close();
             }
             else
             {
                 Enemy.Slash(ref You);
-                MessageBox.Show("Enemy fights back");
+                MessageBox.Show("'Nani!' Enemy fights back");
                 You.EnergyRestore(ref You);
                 UpdateStats();
             }
@@ -60,22 +62,23 @@ namespace MainScreen
             }
         }
 
+        //Special button
         private void button4_Click(object sender, EventArgs e)
         {
-            You.Backslash(ref Enemy);
-            MessageBox.Show("Special Activated");
+            You.Amaterasu(ref Enemy);
+            MessageBox.Show("'Kakatte koi yo!!' You activate your special!");
             UpdateStats();
             int x;
             x = int.Parse(textBox4.Text);
             if (x <= 0)
             {
-                MessageBox.Show("Defeat");
+                MessageBox.Show("'Kuso kurae!!' Enemy defeated");
                 this.Close();
             }
             else
             {
                 Enemy.Slash(ref You);
-                MessageBox.Show("Enemy fights back");
+                MessageBox.Show("'Name n na!!' Enemy retaliates");
                 You.EnergyRestore(ref You);
                 UpdateStats();
             }
@@ -88,13 +91,14 @@ namespace MainScreen
             }
         }
 
+        //Rest button
         private void button2_Click(object sender, EventArgs e)
         {
             You.Heal(ref You);
             MessageBox.Show("You take a break");
             UpdateStats();
             Enemy.Slash(ref You);
-            MessageBox.Show("Enemy doesn't wait");
+            MessageBox.Show("But the enemy doesn't wait");
             You.EnergyRestore(ref You);
             UpdateStats();
             int c;
@@ -106,13 +110,14 @@ namespace MainScreen
             }
         }
 
+        //Energize button
         private void button3_Click(object sender, EventArgs e)
         {
             You.PowerUp(ref You);
-            MessageBox.Show("Hamehamehaaaa");
+            MessageBox.Show("Surpass your limits and reached greater heights");
             UpdateStats();
             Enemy.Slash(ref You);
-            MessageBox.Show("Enemy attacks");
+            MessageBox.Show("The enemy doesn't care");
             You.EnergyRestore(ref You);
             UpdateStats();
             int b;
