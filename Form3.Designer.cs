@@ -125,6 +125,7 @@ namespace MainScreen
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Indigo;
             this.label7.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Control;
             this.label7.Location = new System.Drawing.Point(88, 177);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(102, 39);
@@ -183,12 +184,12 @@ namespace MainScreen
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Viner Hand ITC", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = global::MainScreen.Properties.Resources.buttons;
-            this.button4.Location = new System.Drawing.Point(554, 284);
+            this.button4.Location = new System.Drawing.Point(553, 284);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(133, 60);
+            this.button4.Size = new System.Drawing.Size(143, 73);
             this.button4.TabIndex = 15;
             this.button4.Text = "Special";
             this.button4.UseVisualStyleBackColor = true;
@@ -196,12 +197,12 @@ namespace MainScreen
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Viner Hand ITC", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = global::MainScreen.Properties.Resources.buttons;
-            this.button3.Location = new System.Drawing.Point(257, 186);
+            this.button3.Location = new System.Drawing.Point(257, 284);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(133, 60);
+            this.button3.Size = new System.Drawing.Size(143, 76);
             this.button3.TabIndex = 14;
             this.button3.Text = "Energize";
             this.button3.UseVisualStyleBackColor = true;
@@ -209,12 +210,12 @@ namespace MainScreen
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Viner Hand ITC", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = global::MainScreen.Properties.Resources.buttons;
-            this.button2.Location = new System.Drawing.Point(257, 284);
+            this.button2.Location = new System.Drawing.Point(553, 189);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 60);
+            this.button2.Size = new System.Drawing.Size(143, 73);
             this.button2.TabIndex = 13;
             this.button2.Text = "Rest";
             this.button2.UseVisualStyleBackColor = true;
@@ -222,12 +223,12 @@ namespace MainScreen
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Viner Hand ITC", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Viner Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = global::MainScreen.Properties.Resources.buttons;
-            this.button1.Location = new System.Drawing.Point(554, 186);
+            this.button1.Location = new System.Drawing.Point(257, 189);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 60);
+            this.button1.Size = new System.Drawing.Size(143, 73);
             this.button1.TabIndex = 12;
             this.button1.Text = "Attack";
             this.button1.UseVisualStyleBackColor = true;
